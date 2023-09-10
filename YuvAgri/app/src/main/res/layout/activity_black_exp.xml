@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@drawable/blacksoil">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="100dp"
+        tools:context=".BlackExpActivity">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:fontFamily="@font/artifika"
+            android:text="@string/black_soil"
+            android:textColor="#FBFBFB"
+            android:textSize="55sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:text="@string/black_soil_is_also_called_as_regur_soil_or_black_cotton_soil_it_is_the_third_major_group_of_soil_in_india_and_forms_the_top_part_of_the_earth_s_surface_that_includes_disintegrated_rock_humus_inorganic_and_organic_materials_the_soil_is_in_black_colour_and_is_formed_by_the_weathering_of_igneous_rock_properties_black_soil_is_a_black_colored_soil_rich_in_humus_and_contains_a_high_percentage_of_phosphoric_acid_phosphorus_and_ammonia_it_is_also_rich_in_iron_lime_calcium_potash_aluminium_and_magnesium_these_soils_are_very_fertile_and_are_useful_in_the_cultivation_of_various_types_of_crops_types_of_crops_like_cotton_tobacco_chilly_oil_seeds_jowar_ragi_and_maize_grow_well_in_it"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+        <TextView
+            android:id="@+id/textView73"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="64dp"
+            android:fontFamily="@font/actor"
+            android:text="@string/crops_suitable_for_soil"
+            android:textColor="@color/white"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView12" />
+
+        <ImageView
+            android:id="@+id/image96"
+            android:layout_width="419dp"
+            android:layout_height="323dp"
+            android:layout_marginTop="45dp"
+            android:src="@drawable/cottontc"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView73" />
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="64dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="64dp"
+            android:background="@drawable/login_button_design"
+            android:onClick="cotton"
+            android:padding="10dp"
+            android:text="@string/cotton0"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/image96" />
+
+        <ImageView
+            android:id="@+id/image97"
+            android:layout_width="426dp"
+            android:layout_height="339dp"
+            android:layout_marginTop="32dp"
+            android:src="@drawable/sugarcanetc"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button7" />
+
+
+        <Button
+            android:id="@+id/button9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="64dp"
+            android:layout_marginEnd="64dp"
+            android:background="@drawable/login_button_design"
+            android:onClick="sugarcane"
+            android:text="@string/sugarcane0"
+            android:textSize="20sp"
+            android:padding="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/image97"/>
+
+        <ImageView
+            android:id="@+id/image98"
+            android:layout_width="414dp"
+            android:layout_height="373dp"
+            android:layout_marginTop="32dp"
+            android:src="@drawable/groundnuttc"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button9" />
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="64dp"
+            android:layout_marginEnd="64dp"
+            android:background="@drawable/login_button_design"
+            android:onClick="groundnut"
+            android:text="@string/groundnut"
+            android:textSize="20sp"
+            android:padding="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/image98"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>
+

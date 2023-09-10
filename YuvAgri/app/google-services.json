@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "544977670523",
+    "project_id": "yuvagri-df331",
+    "storage_bucket": "yuvagri-df331.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:544977670523:android:fb7f4c531cdcbd85682dde",
+        "android_client_info": {
+          "package_name": "com.example.yuvagri"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "544977670523-n779mksfh49mjepaaar012881njdnorj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCnyoqiQtPBKjBSvUa5O3Na7R5cjokprfY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "544977670523-n779mksfh49mjepaaar012881njdnorj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
